@@ -31,6 +31,29 @@ body, html {
   z-index: -1;
 }
 
+.carousel {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-width: 800px !important; 
+  max-height: 800px !important;
+  min-height: 600px !important;
+  min-width: 600px !important;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#carousel-image {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important; 
+  display: block !important;
+}
+
 .logo {
     margin-top: 9.8rem !important;
     display: block;
@@ -41,7 +64,7 @@ body, html {
 #timer {
     font-weight: bold;
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 6rem;
@@ -57,4 +80,41 @@ body, html {
 
 .logo-animate {
     animation: logoAnimation 5s infinite;
+}
+
+.top-logos {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  width: 100%;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+.top-logo {
+  margin: 0px 60px !important;
+  width: 200px !important;
+  height: auto !important;
+  transition: transform 1s ease-in-out;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo-animate {
+  animation: scaleAnimation 5s ease-in-out;
 }
