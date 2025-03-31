@@ -17,5 +17,5 @@ var x = setInterval(function () {
 setInterval(() => {
   const logo = document.getElementById("logo");
   logo.classList.add("logo-animate");
-  setTimeout(() => logo.classList.remove("logo-animate"), 5000); // Remove animation after 5 seconds
-}, 300000); // Trigger every 5 minutes (300,000 ms)
+  setTimeout(() => logo.classList.remove("logo-animate"), 5000);
+}, 30000); 

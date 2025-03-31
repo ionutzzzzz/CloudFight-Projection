@@ -4,7 +4,7 @@ body, html {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .video-container {
@@ -32,10 +32,10 @@ body, html {
 }
 
 .logo {
-    margin-top: 20rem !important;
+    margin-top: 9.8rem !important;
     display: block;
     margin: 20px auto;
-    width: 450px;
+    width: 640px;
 }
 
 #timer {
@@ -44,14 +44,14 @@ body, html {
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 64px;
+    font-size: 6rem;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 @keyframes logoAnimation {
     0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
+    50% { transform: scale(1.4); }
     100% { transform: scale(1); }
 }
 
