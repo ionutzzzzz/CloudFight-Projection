@@ -15,7 +15,7 @@ var x = setInterval(function () {
 }, 1000);
 
 let vid = document.getElementById("background-video");
-vid.playbackRate = 0.5;
+vid.playbackRate = 0.6;
 
 setInterval(() => {
   const logo = document.getElementById("logo");
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   updateCarouselImage(); 
-  setInterval(updateCarouselImage, 2000); 
+  setInterval(updateCarouselImage, 45000); 
 
   const topLogos = document.querySelectorAll(".top-logo");
 
