@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   updateCarouselImage(); 
-  setInterval(updateCarouselImage, 90000); 
+  setInterval(updateCarouselImage, 45000); 
 
   const topLogos = document.querySelectorAll(".top-logo");
 
