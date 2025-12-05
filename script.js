@@ -35,9 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
     "./Sponsors/Sponsor8.png",
     "./Sponsors/Sponsor9.png",
     "./Sponsors/Sponsor10.png",
+    "./Sponsors/Sponsor11.png",
   ];
 
-  let currentImageIndex = 2;
+  let currentImageIndex = 10;
   const carouselImage = document.getElementById("carousel-image");
   const AUTO_INTERVAL_MS = 45000;
   let autoTimer = null;
