@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "./Sponsors/Sponsor8.png",
     "./Sponsors/Sponsor9.png",
     "./Sponsors/Sponsor10.png",
-    "./Sponsors/Sponsor11.png",
   ];
 
   let currentImageIndex = 10;
